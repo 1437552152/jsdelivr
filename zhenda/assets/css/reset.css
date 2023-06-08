@@ -1,0 +1,73 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   /* font-size: 100%; */
+   /* font: inherit; */
+   /* font-weight: normal; */
+   /* vertical-align: baseline; */
+ }
+ .w-e-text-container h1,
+  .w-e-text-container h2,
+  .w-e-text-container h3,
+  .w-e-text-container h4,
+  .w-e-text-container h5,
+   .w-e-text-container h6{
+    font-weight: bold;
+   }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section{
+   display: block;
+ }
+ ol, ul, li{
+   list-style: none;
+ }
+
+ table{
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+
+
+ /*清除浮动*/
+ .clearfix:before,
+ .clearfix:after{
+   content: " ";
+   display: inline-block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+ }
+ .clearfix{
+   *zoom: 1;
+ }
+ .w-e-text-container{
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #495060;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+ }
+ .w-e-text-container b,  .w-e-text-container strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}

@@ -1,0 +1,256 @@
+.section-banner-contain {
+  /* text-align: center */
+}
+
+.section-banner-contain .subtitle,
+.section-banner-contain .title {
+  font-family: avgardn, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Helvetica Neue, PingFang SC, Hiragino Sans GB, Helvetica, SimSun, Arial, sans-serif;
+  font-weight: 400;
+  color: #fff
+}
+
+.caption {
+  margin: 30px 0
+}
+
+.caption .subtitle,
+.caption .title {
+  font-family: aller, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Helvetica Neue, PingFang SC, Hiragino Sans GB, Helvetica, SimSun, Arial, sans-serif;
+  color: #333
+}
+
+.caption .title {
+  font-size: 2.025em
+}
+
+.caption .subtitle {
+  font-size: 1.62em
+}
+
+@media (max-width:768px) {
+  .caption {
+    margin: 15px 0
+  }
+}
+
+.quality-develop {
+  padding: 60px 0
+}
+
+.quality-develop .wrapper {
+  position: relative
+}
+
+.quality-develop .contents {
+  width: 45%
+}
+
+.quality-develop .contents img {
+  width: 100%
+}
+
+.quality-develop .picture {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url("../../img/quality/develop.jpg")
+    /*tpa=assets/img/quality/develop.jpg*/
+  ;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%
+}
+
+@media (max-width:768px) {
+  .quality-develop {
+    padding: 15px 0
+  }
+
+  .quality-develop .caption {
+    margin: 15px 0
+  }
+
+  .quality-develop .contents {
+    float: none;
+    width: auto
+  }
+
+  .quality-develop .picture {
+    float: none;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+    background-size: 100% 100%
+  }
+}
+
+.quality-process {
+  position: relative;
+  background-color: #f8f8f8
+}
+
+.quality-process .background {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../img/quality/technics.jpg")
+    /*tpa=assets/img/quality/technics.jpg*/
+  ;
+  background-position: 100% 50%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  top: 0
+}
+
+.quality-process .contents {
+  min-height: 620px;
+  box-sizing: border-box;
+  padding: 50px
+}
+
+.quality-process .process-step,
+.quality-process .process-tech {
+  float: left;
+  width: 50%;
+  position: relative
+}
+
+.quality-process .process-tech .caption .subtitle,
+.quality-process .process-tech .caption .title {
+  color: #fff
+}
+
+.quality-process .process-tech .picture {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("../../img/quality/technics.jpg")
+    /*tpa=assets/img/quality/technics.jpg*/
+  ;
+  background-position: 50% 50%;
+  background-repeat: repeat-x;
+  background-size: auto 100%
+}
+
+.quality-process .process-tech .contents {
+  margin-right: 50px;
+  position: relative;
+  background-color: rgba(230, 0, 18, .8);
+  color: #fff
+}
+
+.quality-process .process-step .contents {
+  padding: 50px 0 50px 50px;
+  position: relative;
+  color: #fff
+}
+
+@media (max-width:768px) {
+  .quality-process {
+    min-height: 0
+  }
+
+  .quality-process .background {
+    display: none
+  }
+
+  .quality-process .container {
+    margin: 0;
+    padding: 0
+  }
+
+  .quality-process .process-step,
+  .quality-process .process-tech {
+    float: none;
+    width: auto
+  }
+
+  .quality-process .process-tech .contents {
+    float: none;
+    width: 80%;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 0;
+    padding: 15px;
+    box-sizing: border-box
+  }
+
+  .quality-process .process-tech .picture {
+    display: block
+  }
+
+  .quality-process .process-step .contents {
+    float: none;
+    width: 90%;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+  }
+}
+
+.quality-standard-01,
+.quality-standard-02 {
+  float: left;
+  width: 50%
+}
+
+@media (max-width:768px) {
+
+  .quality-standard-01,
+  .quality-standard-02 {
+    float: none;
+    width: 100%
+  }
+}
+
+.quality-standard-01 .contents {
+  padding: 50px 50px 50px 0;
+  position: relative
+}
+
+.quality-standard-02 .contents {
+  position: relative
+}
+
+.quality-standard-02 .content {
+  text-align: center
+}
+
+.quality-standard-02 .content img {
+  width: 100%
+}
+
+.quality-standard {
+  *zoom: 1;
+  position: relative
+}
+
+.quality-standard:after,
+.quality-standard:before {
+  content: "";
+  display: table
+}
+
+.quality-standard:after {
+  clear: both
+}
+
+@media (max-width:768px) {
+  .quality-standard {
+    height: auto
+  }
+}
