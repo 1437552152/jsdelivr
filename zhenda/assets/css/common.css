@@ -6269,12 +6269,15 @@ sub {
 #header .action .btn {
   float: left;
   height: 40px;
+  display: inline-block;
+    width: 20px;
   line-height: 40px;
   position: relative;
   padding: 0 10px;
   text-align: center;
   cursor: pointer;
-  color: #999
+  color: #999;
+  
 }
 
 #header .action .btn:first-child {
